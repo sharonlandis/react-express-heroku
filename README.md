@@ -4,8 +4,6 @@ This project tests deploying an express react app to Heroku
 
 # Instructions to create this project
 
-https://www.freecodecamp.org/news/deploy-a-react-node-app-to/
-
 create react-express folder
 cd react-express
 mkdir server
@@ -27,7 +25,7 @@ express
 
 react-express/server> npm install to get node_modules
 
-in server.app.js add these 2 lines after var app = express();
+in server/app.js add these 2 lines after var app = express();
 
 app.use(express.static(path.join(\_\_dirname, 'build')));
 
@@ -40,8 +38,9 @@ head over to localhost:3000 to see react app1
 
 deploy to github. I created a README.md (this file) and did not check create README.md when creating github repo/
 
-Follow tutorial (link above) to deploy to Heroku
+Follow tutorial to deploy to Heroku:
+tutorial to follow: https://www.freecodecamp.org/news/deploy-a-react-node-app-to/
 
-Here's the link...
+Link to Heroku website
 
 https://react-express-sl.herokuapp.com/
