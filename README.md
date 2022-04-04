@@ -39,7 +39,7 @@ head over to localhost:3000 to see react app1
 deploy to github. I created a README.md (this file) and did not check create README.md when creating github repo/
 
 Follow tutorial to deploy to Heroku:
-tutorial to follow: https://www.freecodecamp.org/news/deploy-a-react-node-app-to/
+https://www.freecodecamp.org/news/deploy-a-react-node-app-to/
 
 Link to Heroku website
 
